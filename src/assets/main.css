@@ -2,34 +2,33 @@
 
 #app {
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+  margin-inline: auto;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+h1 {
+  font-family: var(--title);
+  font-size: var(--step-3);
+  color: var(--color-primary);
+  margin-inline: var(--space-md);
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+h2 {
+  font-family: var(--title);
+  font-size: var(--step-2);
+  color: var(--color-primary);
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+p {
+  font-size: var(--step-0);
+  font-family: var(--regular);
+  color: #222222;
+  margin-block: var(--space-md)
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+.container-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 1fr auto;
+  column-gap: var(--space-sm);
+  margin-block-end: var(--space-md);
 }

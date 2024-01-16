@@ -1,0 +1,52 @@
+<script>
+    export default {
+  name: 'FooterSection',
+};
+</script>
+
+<template>
+    <div class="container-wrapper">
+        <h2>Contact</h2>
+            <address>
+                Logement Dwarsgracht <br>
+                Dwarsgracht 21 <br>
+                8355 CT Giethoorn
+            </address>
+            <div class="contact-info">
+                <a href="tel:+31627166054">+31 6 27 16 60 54</a><br>
+                <a href="mailto:info@logementdwarsgracht.nl">info@logementdwarsgracht.nl</a>
+            </div>
+    </div>
+   
+</template>
+
+<style scoped>
+    .container-wrapper {
+        background: #586BA4;
+        padding: var(--space-md);
+    }
+
+    h2 {
+        color: var(--color-secondary);
+        grid-column: 2;
+    }
+
+    address {
+        grid-column: 2 / 5;
+        grid-row: 2;
+        color: var(--color-secondary);
+        font-family: var(--regular);
+        font-style: normal;
+    }
+
+    .contact-info {
+        grid-column: 6 / -1;
+        grid-row: 2;
+    }
+
+    .contact-info a {
+        color: var(--color-secondary);
+        font-family: var(--regular);
+        font-style: normal;
+    }
+</style>
