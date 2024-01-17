@@ -1,7 +1,7 @@
 <template>
     <div class="container-wrapper">
         <figure>
-            <img src="../assets/images/Camper.jpg">
+            <img src="../assets/images/logement.jpeg">
         </figure>
         <div class="hero-text">
             <p>Logement ‘Dwarszicht’ is gelegen in het pittoreske dorpje Dwarsgracht ±3km ten westen van Giethoorn en gesitueerd in het achterhuis van een in 2008 nieuw gebouwde woonboerderij van de familie Petter.</p> 
@@ -26,7 +26,7 @@ img {
     background: rgba(255, 255, 255, 0.90);
     box-shadow: 0px 2px 50px 5px rgba(0, 0, 0, 0.05);
     text-align: center;
-    padding: var(--space-xl);
+    padding: var(--space-md);
     height: fit-content;
     align-self: center;
     margin-block-start: -5rem;
@@ -34,20 +34,21 @@ img {
 
 @media screen and (min-width: 800px) {
     .hero-text {
-    grid-column: 8/-1;
-    grid-row: 1;
-    margin-block-start: 0;
+        grid-column: 8/-1;
+        grid-row: 1;
+        margin-block-start: 0;
+        padding: var(--space-xl);
     }
 
     figure {
-    grid-column: 1 / span 10;
-    grid-row: 1;
-    overflow: hidden;
+        grid-column: 1 / span 10;
+        grid-row: 1;
+        overflow: hidden;
     }
 
     img {
-    max-height: 90vh;
-    width: auto;
+        height: 90vh;
+        width: auto;
     }
 
 }

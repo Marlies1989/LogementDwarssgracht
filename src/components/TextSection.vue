@@ -1,10 +1,14 @@
+<script setup>
+    defineProps(['title', 'title2'])
+</script>
+
 <template>
     <div class="container-wrapper" id="over">
         <figure class="left">
             <img src="../assets/images/riet.jpg">
         </figure>
         <div class="text-right">
-            <h2>Midden in de natuur</h2>
+            <h2>{{ title }}</h2>
             <br>
             <p>Ontdek het pittoreske Dwarsgracht, gelegen te midden van een van de meest betoverende en ongerepte natuurgebieden van Nederland: de "Weeribben-Wieden”.</p>
             <p>Ontspan volledig te midden van deze schitterende natuur, waar u de mogelijkheid hebt om heerlijk te fietsen, varen, wandelen, vissen of als u gelukt hebt in de wintermaanden te schaatsen.</p>
@@ -17,7 +21,7 @@
             <img src="../assets/images/mus.jpg">
         </figure>
         <div class="text-left">
-            <h2>Duurzaam</h2>
+            <h2>{{ title2 }}</h2>
             <br>
             <p>Toen het logement in 2008 gebouwd is, is in de hele woning een aardwarmtesysteem aangelegd. Dit houdt onder anderen in dat er geen gas aansluiting aanwezig is. Op de schuur zijn 40 zonnepanelen geplaatst, deze zorgen voor de totale energie voor het logement.</p>
             <p>Overnachten in een energie neutraal logement, het kan bij ons.</p>

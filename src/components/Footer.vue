@@ -32,7 +32,7 @@
     }
 
     address {
-        grid-column: 2 / 5;
+        grid-column: 2 / -1;
         grid-row: 2;
         color: var(--color-secondary);
         font-family: var(--regular);
@@ -40,13 +40,24 @@
     }
 
     .contact-info {
-        grid-column: 6 / -1;
-        grid-row: 2;
+        grid-column: 2 / -1;
+        grid-row: 3;
     }
 
     .contact-info a {
         color: var(--color-secondary);
         font-family: var(--regular);
         font-style: normal;
+    }
+
+    @media screen and (min-width: 800px) {
+        address {
+            grid-column: 2/5;
+        }
+
+        .contact-info {
+            grid-column: 6 / -1;
+            grid-row: 2;
+        }
     }
 </style>

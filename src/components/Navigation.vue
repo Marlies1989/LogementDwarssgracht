@@ -24,7 +24,7 @@ export default {
             <div class="menu-wrapper" :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'"> 
                 <ul class="menu">
                     <li><a href="#over">Over</a></li>
-                    <li><a href="">Tarieven</a></li>
+                    <li><a href="#tarieven">Tarieven</a></li>
                     <li><a href="">Foto's</a></li>
                     <li><a href="">Contact</a></li>
                  </ul>
@@ -105,6 +105,9 @@ nav {
 
 
 @media screen and (min-width: 800px) {
+  header {
+    margin-block: var(--space-md);
+  }
   .mobile-open {
     display: none;
   }
