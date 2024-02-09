@@ -51,4 +51,5 @@ li {
   width: min(1280px, 100vw - 2rem);
   margin-inline-start: auto;
   margin-inline-end: auto;
+  margin-block-end: var(--space-md);
 }

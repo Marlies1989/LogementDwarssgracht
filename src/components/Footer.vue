@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <div class="background" id="contact">
+<div class="background" id="contact">
     <div class="container-wrapper">
         <h2>Contact</h2>
             <address>
@@ -26,9 +26,11 @@
     .background {
         width: 100%;
         background: var(--color-blue);
+        height: 100%;
     }
     .container-wrapper {
         padding: var(--space-md);
+        margin-block-end: 0;
     }
 
     h2 {

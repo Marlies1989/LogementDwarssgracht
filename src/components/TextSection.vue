@@ -37,7 +37,9 @@ figure {
 }
 
 img {
-    width: 100dvw;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 3/2;
 }
 .text-right,
 .text-left {
@@ -59,9 +61,9 @@ img {
     }
 
     .text-left {
-        grid-column: 1 / 9;
-        grid-row: 1;
-        margin-block-start: 0;
+    grid-column: 1 / 9;
+    grid-row: 1;
+    margin-block-start: 0;
     }
 
     .left {
@@ -71,14 +73,16 @@ img {
     }
 
     .right {
-        grid-column: 9 / -1;
-        grid-row: 1;
-        overflow: hidden;
+    grid-column: 9 / -1;
+    grid-row: 1;
+    overflow: hidden;
     }
 
     img {
     height: 100%;
-    width: auto;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 2/3;
     }
 }
 </style>
