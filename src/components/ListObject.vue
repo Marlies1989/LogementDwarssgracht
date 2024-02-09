@@ -1,4 +1,5 @@
 <template>
+    <div class="background">
     <div class="container-wrapper">
         <h2>Indeling</h2>
             <div class="list">
@@ -53,10 +54,12 @@
 
             </div>
     </div>
+</div>
 </template>
 
 <style scoped>
-    .container-wrapper {
+    .background {
+        width: 100%;
         background: #E5EBEA;
     }
     

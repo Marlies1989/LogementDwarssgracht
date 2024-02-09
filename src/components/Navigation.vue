@@ -15,20 +15,19 @@ export default {
 
 <template>
 
-<header>
+  <header>
     <h1>Logement Dwarsgracht</h1>
-    <nav>
-        <div class="mobile-open" @click="showMenu()">
-            <p>Menu</p>
-        </div>
-            <div class="menu-wrapper" :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'"> 
-                <ul class="menu">
-                    <li><a href="#over">Over</a></li>
-                    <li><a href="#tarieven">Tarieven</a></li>
-                    <li><a href="">Foto's</a></li>
-                    <li><a href="">Contact</a></li>
-                 </ul>
-        </div>
+    <nav class="mobile-open">
+        <ul class="menu">
+          <li  @click="showMenu()">Menu
+            <ul :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'">
+              <li><a href="#over">Over</a></li>
+              <li><a href="#tarieven">Tarieven</a></li>
+              <li><a href="#fotos">Foto's</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </li>
+        </ul>
     </nav>
 </header>
 
@@ -36,118 +35,105 @@ export default {
 
 <style scoped>
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  width: min(1280px, 100vw - 2rem);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+h1 {
+  flex: 2;
+  text-wrap: nowrap;
+  white-space: nowrap;
+  margin-inline: 0.5rem;
 }
 
 nav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.mobile-open p {
-    font-family: var(--title);
-    padding: var(--space-md);
-    font-size: var(--step-1);
-    color: var(--color-primary);
-    text-decoration-line: underline;
-    -moz-text-decoration-line: underline;
-}
-
-.open-menu {
-  display: flex !important;
-}
-
-.menu-wrapper {
-  position: absolute;
-  top: 4rem;
-  width: 100%;
-  z-index: 100;
-  gap: var(--space-md);
-  display: none;
   flex-direction: column;
+  flex: 1;
+  align-items: center;
+  width: 100%;
 }
 
 .menu {
-  gap: var(--space-md);
-  display: flex;
-  flex-direction: column;
-  background-color: var(--color-primary);
-  padding-inline: 0;
-  padding-block: var(--space-md);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .menu > li {
-  margin-inline: var(--space-md);
-  font-family: var(--title);
-  font-size: var(--step-1);
-  color: var(--color-secondary);
-  list-style: none;
+  position: relative;
+  padding: 0.5rem;
 }
 
-.menu > li > a {
+.closed-menu {
+  display: none;
+}
+
+.menu > li ul {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100dvw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-primary);
+}
+
+.menu > li ul li {
+  width: 100%; 
+  padding: 0.5rem;
+}
+
+.menu > li ul li a {
   color: var(--color-secondary);
   text-decoration: none;
-  width: 100%;
-  display: flex;
-  align-items: end;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--color-secondary);
 }
 
-.menu > li > a:hover {
+.menu > li ul li:hover a {
+  background-color: var(--color-primary);
   color: var(--color-secondary);
+  width: 100%;
+  height: 100%;
 }
-
 
 @media screen and (min-width: 800px) {
-  header {
-    margin-block: var(--space-md);
-  }
-  .mobile-open {
-    display: none;
-  }
-
-  .menu-wrapper {
-    display: flex;
-    flex-direction: column-reverse;
-    top: 0;
-    position: relative;
-    align-items: center;
+  h1 {
+    flex: 1;
+    margin: 0;
+    font-size: var(--step-2);
+    text-align: left;
   }
 
-  .menu {
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 0;
-    position: relative;
-    padding: 0;
-    background-color: transparent;
+  nav {
+    flex: 2;
   }
 
   .menu > li {
-    border-bottom: none;
-    margin: 0;
-    list-style: none;
+    visibility: hidden;
     display: flex;
-    flex: 1;
-    padding-inline: var(--space-md);
+    justify-content: flex-end;
   }
 
-  .menu li:hover a {
-    color: var(--color-primary);
-    text-decoration: underline;
+  .menu > li > ul {
+    visibility: visible;
+    display: flex;
+    gap: 2rem;
+    background: transparent;
+    position: relative;
+    width: auto;
   }
 
-  .menu > li > a {
+  .menu > li > ul > li > a {
     color: var(--color-primary);
-    border-bottom: none;
-    justify-content: center;
-    align-items: center;
   }
+
 }
+
 </style>

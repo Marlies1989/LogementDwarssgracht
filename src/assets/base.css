@@ -46,6 +46,9 @@
   --color-primary: #5D8C69;
   --color-secondary: #f8f5eb;
   --color-text: #222222;
+  --color-blue: #586BA4;
+  --color-white: #f2f2f2;
+  --color-white-transparancy: #f2f2f275;
 }
 
 :root {

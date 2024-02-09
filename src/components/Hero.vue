@@ -14,6 +14,7 @@
 figure {
     grid-column: 1 / -1;
     grid-row: 1;
+    overflow: hidden;
 }
 
 img {
@@ -23,7 +24,7 @@ img {
     grid-column: 2/12;
     grid-row: 2;
     z-index: 100;
-    background: rgba(255, 255, 255, 0.90);
+    background: var(--color-white);
     box-shadow: 0px 2px 50px 5px rgba(0, 0, 0, 0.05);
     text-align: center;
     padding: var(--space-md);

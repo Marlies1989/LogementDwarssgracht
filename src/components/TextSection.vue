@@ -33,6 +33,7 @@
 figure {
     grid-column: 1 / -1;
     grid-row: 1;
+    overflow: hidden;
 }
 
 img {
@@ -42,7 +43,7 @@ img {
 .text-left {
     grid-column: 2/12;
     grid-row: 2;
-    background: rgba(255, 255, 255, 0.90);
+    background: var(--color-white);
     text-align: center;
     padding: var(--space-xl);
     height: fit-content;

@@ -1,9 +1,9 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
   margin-inline: auto;
   scroll-behavior: smooth;
+  background: var(--color-white);
 }
 
 h1 {
@@ -38,17 +38,17 @@ p, th, td {
   margin-block: var(--space-md)
 }
 
+li {
+  font-family: var(--regular);
+  font-size: var(--step-0);
+}
+
 .container-wrapper {
   display: grid;
   grid-template-columns: repeat(12,1fr);
   grid-template-rows: 1fr auto;
   column-gap: var(--space-sm);
-  margin-block-end: var(--space-md);
-}
-
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: var(--step-4);
-  }
-  
+  width: min(1280px, 100vw - 2rem);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }

@@ -1,6 +1,6 @@
 <template>
-    <div class="container-wrapper" id="tarieven">
-        <h2>Prijzen</h2>
+    <div class="container-wrapper" id="tarieven" >
+        <h2>Tarieven</h2>
             <table class="hoogseizoen">
                 <tbody>
                     <tr>
@@ -121,14 +121,24 @@
         grid-column: 1/-1;
         grid-row: 6;
         justify-self: center;
-        border-radius: 10px;
-        background: #E5EBEA;
+        background: var(--color-primary);
         padding: var(--space-sm);
         font-family: var(--title);
         font-size: var(--step-2);
-        color: var(--color-primary);
+        color: var(--color-secondary);
         text-decoration: none;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+
+    .button:hover {
+        background: var(--color-white);
+        color: var(--color-primary);
+        text-decoration: underline solid 1px var(--color-primary);
+        box-shadow: none;
+    }
+
+    #tarieven {
+        margin-block-end: var(--space-md);
     }
 
 </style>

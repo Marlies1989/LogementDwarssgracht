@@ -5,6 +5,7 @@
 </script>
 
 <template>
+    <div class="background" id="contact">
     <div class="container-wrapper">
         <h2>Contact</h2>
             <address>
@@ -17,12 +18,16 @@
                 <a href="mailto:info@logementdwarsgracht.nl">info@logementdwarsgracht.nl</a>
             </div>
     </div>
+</div>
    
 </template>
 
 <style scoped>
+    .background {
+        width: 100%;
+        background: var(--color-blue);
+    }
     .container-wrapper {
-        background: #586BA4;
         padding: var(--space-md);
     }
 

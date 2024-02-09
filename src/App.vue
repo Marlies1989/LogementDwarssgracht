@@ -4,7 +4,9 @@ import Hero from './components/Hero.vue'
 import TextSection from './components/TextSection.vue'
 import ListObject from './components/ListObject.vue'
 import Prijzen from './components/Tarieven.vue'
+import PhotoSection from './components/Photos.vue'
 import FooterSection from './components/Footer.vue'
+
 </script>
 
 <template>
@@ -15,6 +17,7 @@ import FooterSection from './components/Footer.vue'
     <TextSection title="Midden in de Natuur" title2='Duurzaam'/>
     <ListObject />
     <Prijzen />
+    <PhotoSection />
   </main>
 
   <FooterSection/>
