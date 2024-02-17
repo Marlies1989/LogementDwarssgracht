@@ -2,7 +2,7 @@
     <div class="container-wrapper" id="fotos">
         <div class="photo-2">
             <figure>
-                <img src="../assets/images/Camper.jpg" alt="">
+                <img src="../assets/images/terras_dg.jpeg" alt="">
             </figure>
             <figure>
                 <img src="../assets/images/logement.jpeg" alt="">
@@ -10,16 +10,30 @@
         </div>
         <div class="photo-4">
             <figure>
-                <img src="../assets/images/logement.jpeg" alt="">
-            </figure>
-            <figure>
-                <img src="../assets/images/Camper.jpg" alt="">
-            </figure>
-            <figure>
                 <img src="../assets/images/mus.jpg" alt="">
             </figure>
             <figure>
+                <img src="../assets/images/Winter_logement_dg.jpeg" alt="">
+            </figure>
+            <figure>
                 <img src="../assets/images/riet.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/schaatsen_dg.jpeg" alt="">
+            </figure>
+        </div>
+        <div class="photo-4">
+            <figure>
+                <img src="../assets/images/eenden_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/zwanen_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/otter_dg.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/ooienvaar_dg.jpeg" alt="">
             </figure>
         </div>
     </div>
