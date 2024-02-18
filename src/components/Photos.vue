@@ -10,16 +10,24 @@
         </div>
         <div class="photo-4">
             <figure>
-                <img src="../assets/images/mus.jpg" alt="">
+                <img src="../assets/images/badkamer_dg.jpeg" alt="">
             </figure>
             <figure>
-                <img src="../assets/images/Winter_logement_dg.jpeg" alt="">
+                <img src="../assets/images/trap_dg.jpeg" alt="">
             </figure>
             <figure>
-                <img src="../assets/images/riet.jpg" alt="">
+                <img src="../assets/images/slaapkamer_boven_dg.jpeg" alt="">
             </figure>
             <figure>
-                <img src="../assets/images/schaatsen_dg.jpeg" alt="">
+                <img src="../assets/images/zithoek_dg.jpeg" alt="">
+            </figure>
+        </div>
+        <div class="photo-2">
+            <figure>
+                <img src="../assets/images/hal_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/keuken_dg.jpeg" alt="">
             </figure>
         </div>
         <div class="photo-4">
@@ -36,6 +44,29 @@
                 <img src="../assets/images/ooienvaar_dg.jpeg" alt="">
             </figure>
         </div>
+        <div class="photo-2">
+            <figure>
+                <img src="../assets/images/slaapkamer_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/woonkamer_dg.jpeg" alt="">
+            </figure>
+        </div>
+        <div class="photo-4">
+            <figure>
+                <img src="../assets/images/winter_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/sunset_dg.jpg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/zomer_dg.jpeg" alt="">
+            </figure>
+            <figure>
+                <img src="../assets/images/schaatsen_dg.jpeg" alt="">
+            </figure>
+        </div>
+
     </div>
 </template>
 
