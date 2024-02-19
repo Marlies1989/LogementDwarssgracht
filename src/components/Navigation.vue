@@ -19,7 +19,7 @@ export default {
     <h1>Logement Dwarsgracht</h1>
     <nav class="mobile-open">
         <ul class="menu">
-          <li  @click="showMenu()">Menu
+          <li  @click="showMenu()"> <img src="../assets/images/menu.svg" alt="">
             <ul :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'">
               <li><a href="#over">Over</a></li>
               <li><a href="#tarieven">Tarieven</a></li>
@@ -68,6 +68,8 @@ nav {
 .menu > li {
   position: relative;
   padding: 0.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .closed-menu {
