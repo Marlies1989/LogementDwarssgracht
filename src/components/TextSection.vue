@@ -47,7 +47,7 @@ img {
     grid-row: 2;
     background: var(--color-white);
     text-align: center;
-    padding: var(--space-xl);
+    padding: var(--space-md);
     height: fit-content;
     align-self: center;
     margin-block-start: -5rem;
@@ -58,12 +58,14 @@ img {
     grid-column: 5/-1;
     grid-row: 1;
     margin-block-start: 0;
+    padding: var(--space-xl);
     }
 
     .text-left {
     grid-column: 1 / 9;
     grid-row: 1;
     margin-block-start: 0;
+    padding: var(--space-xl);
     }
 
     .left {

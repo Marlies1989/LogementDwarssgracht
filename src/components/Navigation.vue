@@ -47,7 +47,7 @@ h1 {
   flex: 2;
   text-wrap: nowrap;
   white-space: nowrap;
-  margin-inline: 0.5rem;
+  margin-inline-start: 1rem;
 }
 
 nav {
@@ -69,7 +69,7 @@ nav {
   position: relative;
   padding: 0.5rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .closed-menu {
