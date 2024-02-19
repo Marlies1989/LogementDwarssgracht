@@ -39,7 +39,6 @@ header {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  width: min(1280px, 100vw - 2rem);
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
@@ -104,6 +103,10 @@ nav {
 }
 
 @media screen and (min-width: 800px) {
+  header {
+      width: min(1280px, 100vw - 2rem);
+  }
+
   h1 {
     flex: 1;
     margin: 0;
