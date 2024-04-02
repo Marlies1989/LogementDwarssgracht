@@ -1,5 +1,5 @@
 <script setup>
-    defineProps(['title', 'title2'])
+    defineProps(['title', 'title2', 'title3'])
 </script>
 
 <template>
@@ -10,9 +10,9 @@
         <div class="text-right">
             <h2>{{ title }}</h2>
             <br>
-            <p>Ontdek het pittoreske Dwarsgracht, gelegen te midden van een van de meest betoverende en ongerepte natuurgebieden van Nederland: de "Weeribben-Wieden”.</p>
-            <p>Ontspan volledig te midden van deze schitterende natuur, waar u de mogelijkheid hebt om heerlijk te fietsen, varen, wandelen, vissen of als u gelukt hebt in de wintermaanden te schaatsen.</p>
-            <p>Elke dag wordt u verwelkomd door het gezang van vogels, het gekwaak van eenden en het geluid van kikkers. Vanuit het logement heeft u een adembenemend uitzicht op de uitgestrekte rietvelden en de schilderachtige dorpsgracht, waardoor uw verblijf nog meer betoverend wordt.</p>
+            <p>Logement ‘Dwarszicht’ is gelegen in het pittoreske dorpje Dwarsgracht ±3km ten westen van Giethoorn. Midden in de Weeribben-Wieden gesitueerd in het achterhuis van een in 2008 nieuw gebouwde woonboerderij van de familie Petter, komt u heerlijk tot rust.</p> 
+            <p>Het logement ligt vanaf de openbare weg gezien aan de overkant van de dorpsgracht, maar desondanks zeer goed bereikbaar via een karakteristieke brug over het water.</p>
+            <p>Elke dag wordt u verwelkomd door het gezang van vogels, het gekwaak van eenden en het geluid van kikkers. Vanuit het logement en vanaf het terras heeft u uitzicht over de tuin, de rietvelden en het water. Een idyllisch decor dat zich leent voor het bewonderen van prachtige zonsondergangen.</p>
         </div>
     </div>
 
@@ -23,8 +23,21 @@
         <div class="text-left">
             <h2>{{ title2 }}</h2>
             <br>
-            <p>Toen het logement in 2008 gebouwd is, is in de hele woning een aardwarmtesysteem aangelegd. Dit houdt onder anderen in dat er geen gas aansluiting aanwezig is. Op de schuur zijn 40 zonnepanelen geplaatst, deze zorgen voor de totale energie voor het logement.</p>
+            <p>
+Het logement bevindt zich in een gerenoveerde woonboerderij, die in 2008 volledig herbouwd is. De hele woonboerderij wordt aangedreven door een gesloten aardwarmtesysteem, wat betekent dat er geen gasaansluiting aanwezig is. Bovendien zijn er 40 zonnepanelen op de schuur geïnstalleerd, die voorzien in de totale energiebehoefte van zowel het logement als de woonboerderij.</p>
             <p>Overnachten in een energie neutraal logement, het kan bij ons.</p>
+        </div>
+    </div>
+
+    <div class="container-wrapper" id="over">
+        <figure class="left">
+            <img src="../assets/images/sloep_varen.jpg">
+        </figure>
+        <div class="text-right">
+            <h2>{{ title3 }}</h2>
+            <br>
+            <p>Wilt u de prachtige omgeving via het water verkennen? Maak dan een tochtje met de kano die bij het logement hoort.</p>
+            <p>Of huur/reserveer ter plekke een luxe elektrisch aangedreven sloep via <a href="https://www.pettersloepverhuur.nl/" target="_blank">Petter sloepverhuur.</a></p>
         </div>
     </div>
 </template>

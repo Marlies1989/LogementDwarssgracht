@@ -14,7 +14,7 @@ import FooterSection from './components/Footer.vue'
 
   <main>
     <Hero />
-    <TextSection title="Midden in de Natuur" title2='Duurzaam'/>
+    <TextSection title="Midden in de Natuur" title2='Duurzaam' title3="Op het water"/>
     <ListObject />
     <Prijzen />
     <PhotoSection />

@@ -4,8 +4,11 @@
             <img src="../assets/images/logement.jpeg">
         </figure>
         <div class="hero-text">
-            <p>Logement ‘Dwarszicht’ is gelegen in het pittoreske dorpje Dwarsgracht ±3km ten westen van Giethoorn en gesitueerd in het achterhuis van een in 2008 nieuw gebouwde woonboerderij van de familie Petter.</p> 
-            <p> Het logement ligt in de midden buurt van Dwarsgracht. Vanaf de openbare weg gezien aan de overkant van de dorpsgracht maar desondanks zeer goed bereikbaar via een karakteristieke brug over het water.</p>
+            <p>Ontdek het pittoreske Dwarsgracht, gelegen te midden van een van de meest betoverende en ongerepte natuurgebieden van Nederland: de "Weeribben-Wieden”.</p>
+            <p>Ontspan volledig te midden van deze schitterende natuur, waar u de mogelijkheid hebt om heerlijk te fietsen, varen, wandelen, vissen of als u geluk hebt in de wintermaanden te schaatsen.</p>
+
+            <!-- <p>Logement ‘Dwarszicht’ is gelegen in het pittoreske dorpje Dwarsgracht ±3km ten westen van Giethoorn en gesitueerd in het achterhuis van een in 2008 nieuw gebouwde woonboerderij van de familie Petter.</p> 
+            <p> Het logement ligt in de midden buurt van Dwarsgracht. Vanaf de openbare weg gezien aan de overkant van de dorpsgracht maar desondanks zeer goed bereikbaar via een karakteristieke brug over het water.</p> -->
         </div>
     </div>
 </template>

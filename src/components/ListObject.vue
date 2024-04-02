@@ -9,8 +9,8 @@
                             <li>Compleet gemeubileerde zithoek</li>
                             <li>Eethoek</li>
                             <li>Televisie en radio</li>
-                            <li>DVD speler en Wii spelcomputer</li>
                             <li>Openslaande tuindeuren naar groot terras</li>
+                            <li>WiFi aanwezig</li>
                         </ul>
 
                     <h4>Slaapkamer</h4>
@@ -24,8 +24,9 @@
                         <ul>
                             <li>Vaatwasser</li>
                             <li>Keramische kookplaat</li>
-                            <li>Koelkast</li>
+                            <li>Koelkast en losse diepvries</li>
                             <li>Combi oven/magnetron</li>
+                            <li>Broodrooster</li>
                             <li>Complete huishoudelijke inventaris (zoals borden, glazen, bestek, etc.)</li>
                         </ul>
                     
