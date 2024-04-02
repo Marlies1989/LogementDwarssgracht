@@ -19,7 +19,7 @@ export default {
     <h1>Logement Dwarsgracht</h1>
     <nav class="mobile-open">
         <ul class="menu">
-          <li  @click="showMenu()">Menu
+          <li  @click="showMenu()"> <img src="../assets/images/menu.svg" alt="">
             <ul :class="this.showMobileMenu ? 'open-menu' : 'closed-menu'">
               <li><a href="#over">Over</a></li>
               <li><a href="#tarieven">Tarieven</a></li>
@@ -39,7 +39,6 @@ header {
   flex-direction: row;
   align-items: center;
   text-align: center;
-  width: min(1280px, 100vw - 2rem);
   margin-inline-start: auto;
   margin-inline-end: auto;
 }
@@ -48,7 +47,7 @@ h1 {
   flex: 2;
   text-wrap: nowrap;
   white-space: nowrap;
-  margin-inline: 0.5rem;
+  margin-inline-start: 1rem;
 }
 
 nav {
@@ -69,6 +68,8 @@ nav {
 .menu > li {
   position: relative;
   padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .closed-menu {
@@ -104,6 +105,10 @@ nav {
 }
 
 @media screen and (min-width: 800px) {
+  header {
+      width: min(1280px, 100vw - 2rem);
+  }
+
   h1 {
     flex: 1;
     margin: 0;
