@@ -1,7 +1,7 @@
 <template>
     <div class="background">
     <div class="container-wrapper">
-        <h2>Indeling</h2>
+        <h2 class="ease-title">Indeling</h2>
             <div class="list">
                 <h3>Begane grond</h3>
                     <h4>Woonkamer</h4>

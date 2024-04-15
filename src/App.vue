@@ -6,7 +6,6 @@ import ListObject from './components/ListObject.vue'
 import Prijzen from './components/Tarieven.vue'
 import PhotoSection from './components/Photos.vue'
 import FooterSection from './components/Footer.vue'
-
 </script>
 
 <template>
@@ -22,3 +21,36 @@ import FooterSection from './components/Footer.vue'
 
   <FooterSection/>
 </template>
+
+<script>
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  gsap.registerPlugin(ScrollTrigger);
+
+  export default {
+  mounted() {    
+
+    gsap.from('.hero-text', {
+            duration:2,
+            ease: "power1.inOut",
+            x: 500,
+            });
+
+      ScrollTrigger.batch('.text', {
+        onEnter: batch => {
+            gsap.from(batch, { y: 100, stagger: .25})
+            },
+        });
+    
+      ScrollTrigger.batch('.ease-title', {
+        onEnter: batch => {
+            gsap.from(batch, {
+            duration:2,
+            ease: "power1.inOut",
+            x: 500,
+            })
+            },
+        });
+  }
+};
+</script>

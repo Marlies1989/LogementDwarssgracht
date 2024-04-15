@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="container-wrapper" id="over">
+    <div class="container-wrapper text" id="over">
         <figure class="left">
             <img src="../assets/images/riet.jpg">
         </figure>
@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <div class="container-wrapper">
+    <div class="container-wrapper text">
         <figure class="right">
             <img src="../assets/images/mus.jpg">
         </figure>
@@ -29,7 +29,7 @@ Het logement bevindt zich in een gerenoveerde woonboerderij, die in 2008 volledi
         </div>
     </div>
 
-    <div class="container-wrapper" id="over">
+    <div class="container-wrapper text">
         <figure class="left">
             <img src="../assets/images/sloep_varen.jpg">
         </figure>
@@ -41,6 +41,22 @@ Het logement bevindt zich in een gerenoveerde woonboerderij, die in 2008 volledi
         </div>
     </div>
 </template>
+
+<!-- <script>
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+  gsap.registerPlugin(ScrollTrigger);
+
+  export default {
+  mounted() {    
+      ScrollTrigger.batch('.text', {
+        onEnter: batch => {
+            gsap.from(batch, { y: 100, stagger: .25})
+            },
+        });
+  }
+};
+</script> -->
 
 <style scoped>
 figure {

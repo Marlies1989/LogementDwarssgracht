@@ -1,6 +1,6 @@
 <template>
     <div class="container-wrapper" id="tarieven" >
-        <h2>Tarieven</h2>
+        <h2 class="ease-title">Tarieven</h2>
             <table class="hoogseizoen">
                 <tbody>
                     <tr>
@@ -66,6 +66,27 @@
 
     </div>
 </template>
+
+<!-- <script>
+  import gsap from "gsap";
+  import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+  export default {
+  mounted() { 
+    gsap.registerPlugin(ScrollTrigger);
+
+      ScrollTrigger.batch('.ease-title', {
+        onEnter: batch => {
+            gsap.from(batch, {
+            duration:2,
+            ease: "power1.inOut",
+            x: 500,
+            })
+            },
+        });
+  }
+};
+</script> -->
 
 <style scoped>
     h2 {
