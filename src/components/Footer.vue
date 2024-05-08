@@ -15,7 +15,8 @@
             </address>
             <div class="contact-info">
                 <a href="tel:+31627166054">+31 6 27 16 60 54</a><br>
-                <a href="mailto:info@logementdwarsgracht.nl">info@logementdwarsgracht.nl</a>
+                <a href="mailto:info@logementdwarsgracht.nl">info@logementdwarsgracht.nl</a><br>
+                <a href="https://www.google.nl/maps/dir//Vakantiehuisje+Dwarsgracht,+Logement+Dwarszicht,+Dwarsgracht+21,+8355+CT+Giethoorn/@52.7237647,5.9537151,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47c86fe3b3c2783d:0x6130fed6da3c11cb!2m2!1d6.0362878!2d52.7236894!3e0?entry=ttu>">Google Maps route</a>
             </div>
     </div>
 </div>
