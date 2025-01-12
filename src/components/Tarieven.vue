@@ -10,18 +10,18 @@
                     </tr>
                     <tr>
                         <td><h5>Weekendarrangement</h5>Aankomst vrijdag - vertrek maandag</td>
-                        <td>€ 290</td>
-                        <td>€ 395</td>
+                        <td>€ 305</td>
+                        <td>€ 410</td>
                     </tr>
                     <tr>
                         <td><h5>Midweekarrangement</h5>Aankomst maandag - vertrek vrijdag</td>
-                        <td>€ 370</td>
-                        <td>€ 510</td>
+                        <td>€ 390</td>
+                        <td>€ 530</td>
                     </tr>
                     <tr>
                         <td><h5>Weekarrangement</h5>Aankomst vrijdag - vertrek vrijdag</td>
-                        <td>€ 610</td>
-                        <td>€ 855</td>
+                        <td>€ 645</td>
+                        <td>€ 890</td>
                     </tr>
                 </tbody>
             </table>
@@ -37,18 +37,18 @@
                     </tr>
                     <tr>
                         <td><h5>Weekendarrangement</h5>Aankomst vrijdag - vertrek maandag</td>
-                        <td>€ 260</td>
-                        <td>€ 350</td>
+                        <td>€ 285</td>
+                        <td>€ 375</td>
                     </tr>
                     <tr>
                         <td><h5>Midweekarrangement</h5>Aankomst maandag - vertrek vrijdag</td>
-                        <td>€ 330</td>
-                        <td>€ 450</td>
+                        <td>€ 350</td>
+                        <td>€ 470</td>
                     </tr>
                     <tr>
                         <td><h5>Weekarrangement</h5>Aankomst vrijdag - vertrek vrijdag</td>
-                        <td>€ 540</td>
-                        <td>€ 750</td>
+                        <td>€ 575</td>
+                        <td>€ 785</td>
                     </tr>
                 </tbody>
             </table>
