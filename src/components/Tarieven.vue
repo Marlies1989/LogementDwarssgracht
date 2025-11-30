@@ -54,7 +54,7 @@
             </table>
 
            <div class="info-block">
-                <p>De prijzen zijn exclusief de eindschoonmaak van €55,00<br>
+                <p>De prijzen zijn exclusief toeristenbelasting €2,20 p.p.n en de eindschoonmaak van €55,00<br>
                     Betalingen: 20% bij reservering, restbedrag 1 week van te voren op rekening of contant bij aankomst.</p>
                 <p>Aankomsttijd: vanaf 15:00 uur.<br>
                     Vertrektijd: voor 11:00 uur.</p>
