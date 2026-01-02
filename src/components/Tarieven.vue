@@ -10,18 +10,18 @@
                     </tr>
                     <tr>
                         <td><h5>Weekendarrangement</h5>Aankomst vrijdag - vertrek maandag</td>
-                        <td>€ 305</td>
-                        <td>€ 410</td>
+                        <td>€ 315</td>
+                        <td>€ 415</td>
                     </tr>
                     <tr>
                         <td><h5>Midweekarrangement</h5>Aankomst maandag - vertrek vrijdag</td>
-                        <td>€ 390</td>
-                        <td>€ 530</td>
+                        <td>€ 400</td>
+                        <td>€ 535</td>
                     </tr>
                     <tr>
                         <td><h5>Weekarrangement</h5>Aankomst vrijdag - vertrek vrijdag</td>
-                        <td>€ 645</td>
-                        <td>€ 890</td>
+                        <td>€ 660</td>
+                        <td>€ 900</td>
                     </tr>
                 </tbody>
             </table>
@@ -37,24 +37,24 @@
                     </tr>
                     <tr>
                         <td><h5>Weekendarrangement</h5>Aankomst vrijdag - vertrek maandag</td>
-                        <td>€ 285</td>
-                        <td>€ 375</td>
+                        <td>€ 300</td>
+                        <td>€ 390</td>
                     </tr>
                     <tr>
                         <td><h5>Midweekarrangement</h5>Aankomst maandag - vertrek vrijdag</td>
-                        <td>€ 350</td>
-                        <td>€ 470</td>
+                        <td>€ 360</td>
+                        <td>€ 480</td>
                     </tr>
                     <tr>
                         <td><h5>Weekarrangement</h5>Aankomst vrijdag - vertrek vrijdag</td>
-                        <td>€ 575</td>
-                        <td>€ 785</td>
+                        <td>€ 600</td>
+                        <td>€ 795</td>
                     </tr>
                 </tbody>
             </table>
 
            <div class="info-block">
-                <p>De prijzen zijn exclusief toeristenbelasting €2,20 p.p.n en de eindschoonmaak van €55,00<br>
+                <p>De prijzen zijn exclusief toeristenbelasting €2,20 p.p per nacht en de eindschoonmaak van €55,00<br>
                     Betalingen: 20% bij reservering, restbedrag 1 week van te voren op rekening of contant bij aankomst.</p>
                 <p>Aankomsttijd: vanaf 15:00 uur.<br>
                     Vertrektijd: voor 11:00 uur.</p>
