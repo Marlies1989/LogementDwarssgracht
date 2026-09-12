@@ -4,6 +4,7 @@
             <img src="../assets/images/logement.jpeg">
         </figure>
         <div class="hero-text">
+            <p style="color: red;">LET OP! I.v.m verbouwing is het appartement van 1 oktober tot 18 december niet beschikbaar.</p>
             <p>Ontdek het pittoreske Dwarsgracht, gelegen te midden van een van de meest betoverende en ongerepte natuurgebieden van Nederland: de "Weeribben-Wieden”.</p>
             <p>Ontspan volledig te midden van deze schitterende natuur, waar u de mogelijkheid hebt om heerlijk te fietsen, kanoeën, varen, wandelen, vissen of als u geluk hebt in de wintermaanden te schaatsen.</p>
 
